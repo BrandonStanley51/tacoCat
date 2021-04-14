@@ -137,6 +137,11 @@ pre[class*="language-"] {
 	cursor: help;
 }
 
+div {
+    text-align: center;
+}
+
+
 pre[data-line] {
 	position: relative;
 	padding: 1em 0 1em 3em;
@@ -186,6 +191,12 @@ pre[data-line] {
 		text-shadow: none;
 		box-shadow: 0 1px white;
 	}
+
+.btn1 {
+	border-radius: 20%;
+	margin-bottom: 0% ;
+
+}
 
 	.line-highlight[data-end]:after {
 		content: attr(data-end);

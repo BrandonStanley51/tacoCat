@@ -1,0 +1,54 @@
+/*=============Background color==========*/
+body {
+    background: #093028;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #00c3ff, #ffff1c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #00c3ff, #ffff1c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    
+}
+
+.container {
+    width: 560px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    bottom: 10%;
+    margin-top: -80px;
+    margin-left: -280px;
+    background-color: #b0f5ef;
+    border-radius: 20%;
+    border-style: ridge;
+    
+}
+
+
+
+h1 {
+    text-align: center;
+    
+}
+
+
+
+div {
+    text-align: center;
+}
+
+content{
+    width: 560px;
+    height: 240px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-top: -80px;
+    margin-left: -80px;
+    background-color: #000000;
+}
+
+.btn1{
+    border-radius: 20%;
+    
+}

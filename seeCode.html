@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>JavaScript_Template</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/prismOk.css">
+
+    <link href="/img/favicon.png" rel="icon">
+</head>
+
+<body>
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="#">My JS Code Challenges</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="app.html">The App</a>
+                    <a class="nav-item nav-link active" href="seeCode.html">See The Code<span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="getCode.html">Get The Code</a>
+                    <a class="nav-item nav-link" href="https://brandonestanley.com" target="_blank">My Portfolio</a>
+
+                </div>
+
+
+            </div>
+        </nav>
+        <!--==================================================================================================-->
+        <!--==================================================================================================-->
+        <!--social media links
+            <div class="social-links mt-3 text-center">
+                -- Social media icons GET CHECKED!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                <a href="https://twitter.com/Brandon87816637" class="twitter" target="_blank"><i
+                    class="bx bxl-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/brandon-stanley-82b21720b/" class="linkedin" target="_blank"><i
+                        class="bx bxl-linkedin"></i></a>
+                        <a href="https://github.com/BrandonStanley51" class="github" target="_blank"><i
+                            class="bx bxl-github"></i></a>
+                        </div>
+                        END social media links-->
+
+        <!--=============================Begin page content=========================================-->
+    </header>
+                           <!--ADD CARD=================================================================-->
+    <div class="container mt-5">
+        <div class="row pt-5">
+            <div class="col line-numbers">
+                <pre><code class =" language-javascript">function reverseString() 
+{
+
+    let userWord = document.getElementById("tacoCat").value;
+    let cleanedWord = userWord.replaceAll(/[^a-zA-Z0-9]\s/g, "").toLowerCase();
+    let start = cleanedWord.length - 1;
+    let reverseWord = "";
+
+    for (let i = start; i >= 0; i--) 
+    {
+        reverseWord += cleanedWord[i];
+    }
+
+    let output = document.getElementById("tacoOutput");
+    output.innerText = reverseWord;
+
+
+    let trueFalse = document.getElementById("results");
+    if (cleanedWord == reverseWord) 
+    {
+        trueFalse.innerText = "This word/phrase is a palindrome.";
+    } 
+    else 
+    {
+        trueFalse.innerText = "This  word/phrase is not a palindrome."
+    }
+
+}
+                </code></pre>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer fixed-bottom">
+        <div class="container">
+            <span class="text-muted">Place sticky footer content here.</span>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="/js/prismOk.js"></script>
+</body>
+
+</html>

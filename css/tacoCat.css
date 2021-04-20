@@ -76,7 +76,7 @@ content{
 .appCon{
         position: relative;
         width: 500px;
-        height: 450px;
+        height: auto;
         background-color: #b0f5ef;
         border-radius: 20%;
         border-style: ridge;

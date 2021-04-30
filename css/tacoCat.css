@@ -7,35 +7,42 @@ body {
     background: linear-gradient(to top, #00c3ff, #ffff1c);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 100vh;
-    
+
 }
 
-.test{
+
+
+.socialMed:hover {
+    background-color: #00F260;
+}
+
+.test {
     font-family: monospace;
     font-size: 28px;
 }
-.test1{
+
+.test1 {
     font-family: monospace;
     font-size: 22px;
 }
 
-.myCol1{
+.myCol1 {
     margin-top: 100px;
     font-size: 28px;
 }
 
-.myCol{
-        position: absolute;
-        width: 500px;
-        height: auto;
-        background-color: #b0f5ef;
-        border-radius: 20%;
-        border-style: ridge;
-        margin-top: 50px;
-        
+.myCol {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    background-color: #b0f5ef;
+    border-radius: 20%;
+    border-style: ridge;
+    margin-top: 50px;
+
 }
 
-.catAlt{
+.catAlt {
     margin-top: -15px;
 
 }
@@ -51,7 +58,7 @@ div {
     text-align: center;
 }
 
-content{
+content {
     width: 560px;
     height: 240px;
     position: absolute;
@@ -62,10 +69,10 @@ content{
     background-color: #000000;
 }
 
-.btn1{
+.btn1 {
     border-radius: 20%;
     background-color: #ffff1c;
-       
+
 }
 
 
@@ -73,15 +80,14 @@ content{
     color: #00F260;
 }
 
-.appCon{
-        position: relative;
-        width: 500px;
-        height: auto;
-        background-color: #b0f5ef;
-        border-radius: 20%;
-        border-style: ridge;
-        margin-top: 50px;
-        
-        
-}
+.appCon {
+    position: relative;
+    width: 500px;
+    height: auto;
+    background-color: #b0f5ef;
+    border-radius: 20%;
+    border-style: ridge;
+    margin-top: 50px;
 
+
+}

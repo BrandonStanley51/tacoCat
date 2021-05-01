@@ -10,10 +10,13 @@ body {
 
 }
 
+.icon-size {
+    font-size: 45px;
+}
 
 
 .socialMed:hover {
-    background-color: #00F260;
+    background-color: #ffff1c;
 }
 
 .test {
